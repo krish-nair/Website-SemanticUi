@@ -1,0 +1,66 @@
+/*Content*/
+
+.landing{
+    background: url("../img/bgi.jpeg") #103d50 70% 30% no-repeat!important;
+}
+
+.landing {
+    min-height: 500px;
+    padding: 0em 0em;
+}
+
+.transbg {
+    min-height: 500px;
+    background: rgba(32,154,189,0.655);
+}
+
+.menu {
+    border: 0px!important;
+}
+
+.landing h1.ui.header{
+    margin-top: 4.2em;
+    margin-bottom: 0.11em;
+    font-weight: 100;
+}
+
+.findbg{
+    padding: 1em 1.5em;
+    width: 100%;
+    background: rgba(255,255,255,0.7);
+}
+
+.secondary.pointing.menu .toc.item{
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+        display: none;
+    }
+    .secondary.pointing.menu .toc.item {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
